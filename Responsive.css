@@ -1,0 +1,194 @@
+html {
+  overflow-x: hidden;
+}
+
+.hero-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .hero-img {
+    width: 100% !important;
+  }
+
+  .hero-sub-container {
+    /* top: 0%; */
+    bottom: 0px !important;
+    right: 20vw !important;
+    height: 100px;
+    padding: 10px !important;
+    width: 60vw !important;
+  }
+
+  .hero-sub-container img {
+    width: 90% !important;
+  }
+
+  .container-fluid {
+    width: 100% !important;
+
+    padding: 30px 10px 30px 10px !important;
+  }
+  .container-xl {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  #home {
+    padding: 0px !important;
+  }
+
+  .divider span:nth-child(2) {
+    font-size: 25px;
+  }
+
+  .divider {
+    margin: 0px !important;
+  }
+
+  .hero-desktop {
+    display: none;
+  }
+  .hero-mobile {
+    display: block;
+  }
+
+  #about-us .container-xl {
+    width: 100% !important;
+  }
+
+  #about-us img {
+    width: 90% !important;
+  }
+
+  .my-button1 {
+    font-size: 12px;
+  }
+
+  .my-paragraph {
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+
+  .blue-para {
+    width: 90% !important;
+    padding: 0px !important;
+  }
+
+  .gs3 {
+    height: 65vh !important;
+  }
+
+  .btn2 {
+    width: 90vw !important;
+  }
+
+  .carousel-control-next {
+    right: 10vw;
+    bottom: -135%;
+  }
+
+  .carousel-control-prev {
+    left: 10vw;
+    bottom: -135%;
+  }
+
+  .amenities-slider {
+    width: 100% !important;
+  }
+
+  .map {
+    padding: 0px !important;
+    height: 300px;
+  }
+  .map iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .accordion-button {
+    font-size: 15px !important;
+  }
+
+  .list-group-item {
+    font-size: 12px;
+  }
+
+  .project-gallery {
+    width: 100% !important;
+  }
+
+  .project-gallery .gallery {
+    height: 280px !important;
+  }
+
+  .project-gallery .carousel-control-prev,
+  .project-gallery .carousel-control-next {
+    margin-top: 15px;
+  }
+
+  .cnf-pop-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .typical-f {
+    margin-bottom: -30px !important;
+  }
+
+  .more-slider {
+    display: none;
+  }
+
+  .reraDetails .container-xl {
+    padding: 10px !important;
+  }
+
+  .reraDetails .card-title {
+    font-size: 12px;
+  }
+  .reraDetails .card-text {
+    font-size: 12px;
+  }
+
+  .reraDetails i {
+    font-size: 20px;
+  }
+
+  .reraDetails-right {
+    border: none !important;
+  }
+
+  .yt-video {
+    width: 100%;
+    padding: 0px !important;
+    overflow: hidden;
+  }
+
+  .yt-video iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .swiper-slide .card {
+    width: 280px !important;
+  }
+
+  .space-crafted {
+    font-size: 20px !important;
+  }
+
+  .reraDetails .container-xl {
+    padding: 0px !important;
+  }
+
+  .vaibhav-vista {
+    margin-top: 20px !important;
+  }
+
+
+}
