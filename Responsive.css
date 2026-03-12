@@ -115,7 +115,14 @@ html {
   }
 
   .list-group-item {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  #floor-plan {
+  }
+
+  .QrCode {
+    width: 50%;
   }
 
   .project-gallery {
@@ -189,6 +196,4 @@ html {
   .vaibhav-vista {
     margin-top: 20px !important;
   }
-
-
 }
